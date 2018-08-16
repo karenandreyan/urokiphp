@@ -1,0 +1,10 @@
+slovo v obtanom poriadke
+$str = "VASIA";
+$len = strlen($str)-1;
+
+for($i=$len; $i >= 0; $i--)
+{
+	echo $str{$i},"<br>";
+
+}
+-------------------------------------

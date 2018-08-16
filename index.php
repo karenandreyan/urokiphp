@@ -1,10 +1,17 @@
 <?php
-	$i=0;
+	
+	$cols = 10;
+	$rows = 10;
+	echo "<table>";
+	for($tr=1;$tr<=$rows;$tr++){
+		echo "<tr>";
+		for($td=1;$td<=$cols;$td++){
+			echo "<td>".$tr*$td."</td>";
+		}
+		echo "</tr>";
+	}
 
-	echo ++$i;
-	echo $i;
+	echo "</table>";	
+	
 
-	echo "<pre>";
-	//print_r($arr);
-
-?>
+?>		
